@@ -1,0 +1,1215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Human Performance Architect — Bradley Younger</title>
+<meta name="description" content="Train with confidence, guided by clinical insight. Strength and movement coaching from a registered chiropractor. Form Training, Clarkson.">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:title" content="The Human Performance Architect — Bradley Younger">
+<meta property="og:description" content="Train with confidence, guided by clinical insight. Strength and movement coaching from a registered chiropractor.">
+<meta property="og:image" content="https://yourdomain.com/img/og-share.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Human Performance Architect — Bradley Younger">
+<meta name="twitter:description" content="Train with confidence, guided by clinical insight. Strength and movement coaching from a registered chiropractor.">
+<meta name="twitter:image" content="https://yourdomain.com/img/og-share.jpg">
+
+<link rel="icon" href="img/hpa-logo.png">
+
+<!-- LocalBusiness structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Human Performance Architect",
+  "image": "https://yourdomain.com/img/hpa-logo.png",
+  "email": "hello@example.com",
+  "url": "https://yourdomain.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "44 Key Largo Drive",
+    "addressLocality": "Clarkson",
+    "addressRegion": "WA",
+    "postalCode": "6030",
+    "addressCountry": "AU"
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js");</script>
+<style>
+/* ============================================================
+   THE HUMAN PERFORMANCE ARCHITECT — BRADLEY YOUNGER  |  v3
+   Brand navy #0A203B · brand ochre #E3991C
+   ============================================================ */
+
+:root{
+  --navy-950:#05090F;
+  --navy-900:#070D18;
+  --navy-850:#0A1121;
+  --navy-800:#0D1627;
+  --navy-750:#111C31;
+  --navy-700:#16233C;
+  --navy-650:#1B2A47;
+
+  --line:#1F2E4A;
+  --line-soft:#182541;
+  --line-strong:#2A3C5D;
+
+  --text:#EAF0FA;
+  --text-dim:#AEBCD4;
+  --muted:#8496B2;
+  --faint:#5E6F8E;
+
+  /* sampled from the logo */
+  --brand-navy:#0A203B;
+  --ochre:#E3991C;
+  --ochre-bright:#F2AE3A;
+  --ochre-deep:#B87911;
+  --ochre-wash:rgba(227,153,28,.10);
+  --ochre-line:rgba(227,153,28,.32);
+  --ochre-glow:rgba(227,153,28,.45);
+
+  /* light header */
+  --hdr-bg:#FFFFFF;
+  --hdr-line:rgba(10,32,59,.11);
+  --hdr-text:#0A203B;
+  --hdr-dim:#53657F;
+
+  --r-sm:8px; --r:12px; --r-lg:18px; --r-xl:26px;
+  --sh:0 2px 6px rgba(0,0,0,.35), 0 18px 40px -22px rgba(0,0,0,.85);
+  --sh-lg:0 4px 12px rgba(0,0,0,.4), 0 40px 80px -40px rgba(0,0,0,.95);
+
+  --display:'Sora', ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --sans:'Inter', ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --wrap:1160px;
+  --gut:clamp(20px,4vw,32px);
+  --sec:clamp(66px,7.6vw,112px);
+  --nav-h:80px;
+  --logo-h:48px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 14px);-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--navy-900);color:var(--text);
+  font-family:var(--sans);font-size:15px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;
+}
+body::before{
+  content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(1100px 620px at 8% -10%, rgba(227,153,28,.055), transparent 62%),
+    radial-gradient(900px 560px at 96% 2%, rgba(58,104,190,.07), transparent 64%),
+    radial-gradient(1000px 700px at 50% 118%, rgba(227,153,28,.035), transparent 66%);
+}
+h1,h2,h3,h4,h5,p,figure,blockquote{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+img{max-width:100%;display:block}
+svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.stars svg{fill:currentColor;stroke:none}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer;padding:0;color:inherit}
+:focus-visible{outline:2px solid var(--ochre);outline-offset:3px;border-radius:4px}
+
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 var(--gut);position:relative;z-index:1}
+.sec{padding:var(--sec) 0;position:relative;z-index:1}
+.center{text-align:center}
+.band-850{background:var(--navy-850)}
+.band-fade{background:linear-gradient(180deg,var(--navy-900),var(--navy-850) 42%,var(--navy-900))}
+.band-deep{background:linear-gradient(180deg,var(--navy-950),var(--navy-900))}
+.band-line{border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft)}
+
+/* ============================================================
+   LIGHT SECTIONS
+   Scoped variable flip — components inside inherit automatically
+   ============================================================ */
+.sec--light{
+  background:#F7F9FC;
+  color:#0A203B;
+  --text:#0A203B;
+  --text-dim:#42536C;
+  --muted:#5F7089;
+  --faint:#8494AB;
+  --line:rgba(10,32,59,.12);
+  --line-soft:rgba(10,32,59,.09);
+  --line-strong:rgba(10,32,59,.20);
+  --navy-800:#FFFFFF;
+  --navy-850:#FFFFFF;
+  --navy-900:#FDFEFF;
+  --navy-750:#EEF2F7;
+  --navy-700:#E3E9F1;
+  --navy-650:#D9E0EA;
+}
+/* ochre needs darkening to stay legible on light */
+.sec--light .eyebrow,
+.sec--light .tlink{color:#8F5F0B}
+.sec--light .mode__ic svg,
+.sec--light .check .ic svg{color:#B87911}
+.sec--light .stars svg{color:#D9900F}
+
+/* surfaces that relied on white-on-dark overlays */
+.sec--light .step{background:#fff;box-shadow:0 1px 2px rgba(10,32,59,.04)}
+.sec--light .mode{box-shadow:0 1px 2px rgba(10,32,59,.04), 0 14px 30px -22px rgba(10,32,59,.4)}
+.sec--light .tcard{box-shadow:0 1px 2px rgba(10,32,59,.04)}
+.sec--light .btn-ghost{background:#fff;border-color:rgba(10,32,59,.18);color:#0A203B}
+.sec--light .btn-ghost:hover{background:var(--ochre-wash);border-color:var(--ochre-line);color:#0A203B}
+
+/* ---------- typography ---------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ochre);margin-bottom:16px;
+}
+.eyebrow::before{content:'';width:24px;height:1px;background:linear-gradient(90deg,var(--ochre),transparent)}
+.eyebrow--c::after{content:'';width:24px;height:1px;background:linear-gradient(270deg,var(--ochre),transparent)}
+
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.14;letter-spacing:-.025em}
+.h-xl{font-size:clamp(2.1rem,4.9vw,3.6rem);line-height:1.07;letter-spacing:-.035em}
+.h-lg{font-size:clamp(1.7rem,3.3vw,2.5rem);letter-spacing:-.03em}
+.h-md{font-size:clamp(1.28rem,2vw,1.58rem)}
+.h-sm{font-size:clamp(1.02rem,1.4vw,1.14rem);letter-spacing:-.015em}
+
+.lead{font-size:clamp(.95rem,1.1vw,1.03rem);color:var(--text-dim);line-height:1.65;max-width:56ch}
+.body{font-size:14.5px;color:var(--text-dim);line-height:1.7}
+.small{font-size:13.5px;color:var(--muted);line-height:1.6}
+.tiny{font-size:12px;color:var(--faint);line-height:1.55}
+.center .lead,.center .body{margin-left:auto;margin-right:auto}
+
+.mark{position:relative;white-space:nowrap;color:var(--ochre);z-index:1}
+.mark::after{
+  content:'';position:absolute;left:-3px;right:-3px;bottom:.05em;height:.34em;z-index:-1;
+  background:linear-gradient(90deg,rgba(227,153,28,.28),rgba(227,153,28,.12));
+  border-radius:3px;transform:skewX(-11deg);
+}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:13px 24px;border-radius:999px;font-weight:600;font-size:14.5px;letter-spacing:-.005em;white-space:nowrap;
+  transition:transform .25s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,background .25s ease,border-color .25s ease,color .25s ease;
+}
+.btn svg{width:16px;height:16px;flex:0 0 auto}
+.btn-primary{
+  background:linear-gradient(150deg,var(--ochre-bright),var(--ochre) 55%,var(--ochre-deep));color:#1A1000;
+  box-shadow:0 2px 10px -2px rgba(227,153,28,.45), 0 14px 34px -18px rgba(227,153,28,.7);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 4px 16px -2px rgba(227,153,28,.5), 0 22px 46px -20px rgba(227,153,28,.85)}
+.btn-ghost{border:1px solid var(--line-strong);color:var(--text);background:rgba(255,255,255,.02)}
+.btn-ghost:hover{border-color:var(--ochre-line);background:var(--ochre-wash);color:#fff;transform:translateY(-2px)}
+.btn-lg{padding:15px 30px;font-size:15px}
+.btn-block{width:100%}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.center .btn-row{justify-content:center}
+
+.tlink{display:inline-flex;align-items:center;gap:7px;font-weight:600;font-size:13.5px;color:var(--ochre);transition:gap .25s ease,color .25s ease}
+.tlink svg{width:14px;height:14px}
+.tlink:hover{gap:11px;color:var(--ochre-bright)}
+
+/* ---------- placeholder image boxes ---------- */
+.cat--rehab .ph{background:url("img/rehab.jpg") center/cover no-repeat}
+.about__media .ph{background:url("img/brad.jpg") center/cover no-repeat}
+
+/* placeholder image slots — deliberately unstyled, swap for real photos */
+.ph{position:relative;overflow:hidden;border-radius:var(--r-lg);background:#132038;min-height:120px}
+
+/* ---------- reveal ---------- */
+.js .rv{opacity:0;transform:translateY(20px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,1,.36,1);transition-delay:var(--d,0ms)}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rv{opacity:1;transform:none;transition:none}
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
+
+/* ============================================================
+   HEADER — light bar, brand logo lockup
+   ============================================================ */
+.hdr{
+  position:fixed;top:0;left:0;right:0;z-index:80;height:var(--nav-h);
+  display:flex;align-items:center;
+  background:rgba(255,255,255,.94);backdrop-filter:blur(14px) saturate(150%);
+  border-bottom:1px solid var(--hdr-line);
+  transition:height .3s ease,box-shadow .3s ease;
+}
+.hdr.stuck{
+  height:calc(var(--nav-h) - 12px);
+  box-shadow:0 10px 30px -18px rgba(10,32,59,.5);
+}
+.hdr__in{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+
+.brand{display:flex;align-items:center;flex:0 0 auto}
+.brand__logo{height:var(--logo-h);width:auto}
+
+.nav{display:flex;align-items:center;gap:2px}
+.nav a{padding:8px 12px;border-radius:8px;font-size:14px;font-weight:500;color:var(--hdr-dim);transition:color .2s ease,background .2s ease}
+.nav a:hover{color:var(--hdr-text);background:rgba(10,32,59,.055)}
+
+.hdr__cta{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.burger{display:none;width:42px;height:42px;border-radius:10px;border:1px solid rgba(10,32,59,.16);background:rgba(10,32,59,.03);place-items:center}
+.burger span{display:block;width:17px;height:1.8px;background:var(--hdr-text);border-radius:2px;transition:transform .3s ease,opacity .25s ease}
+.burger span + span{margin-top:5px}
+.burger.open span:nth-child(1){transform:translateY(6.8px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-6.8px) rotate(-45deg)}
+
+.mobnav{
+  position:fixed;top:var(--nav-h);left:0;right:0;z-index:79;
+  background:rgba(255,255,255,.98);backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--hdr-line);box-shadow:0 18px 40px -26px rgba(10,32,59,.55);
+  padding:10px var(--gut) 24px;display:none;flex-direction:column;
+  max-height:calc(100dvh - var(--nav-h));overflow-y:auto;
+}
+.mobnav.open{display:flex}
+.mobnav a{padding:14px 4px;font-size:15px;font-weight:500;border-bottom:1px solid rgba(10,32,59,.09);color:var(--hdr-text)}
+.mobnav .btn{margin-top:16px}
+
+/* ============================================================
+   HERO (3 switchable options)
+   ============================================================ */
+.hero{position:relative}
+
+
+/* Hero B — full bleed */
+#heroB .heroB__stage{position:relative;min-height:min(92vh,820px);display:grid;align-items:center;isolation:isolate}
+#heroB .heroB__bg{position:absolute;inset:0;z-index:0;border-radius:0;border:0;background:url("img/hero.jpg") center/cover no-repeat}
+#heroB .heroB__bg::after{background:none}
+#heroB .heroB__scrim{
+  position:absolute;inset:0;z-index:1;
+  background:
+    linear-gradient(180deg,rgba(7,13,24,.94) 0%,rgba(7,13,24,.66) 34%,rgba(7,13,24,.86) 78%,var(--navy-900) 100%),
+    radial-gradient(78% 62% at 50% 44%, rgba(227,153,28,.10), transparent 70%);
+}
+#heroB .heroB__in{position:relative;z-index:2;padding:calc(var(--nav-h) + 64px) 0 78px;text-align:center}
+#heroB .heroB__in .lead{margin:0 auto}
+
+
+/* ---------- trust bar ---------- */
+.trustbar{
+  display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px clamp(32px,7vw,84px);
+  padding:20px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+}
+.trustbar span{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:500;letter-spacing:.03em;color:var(--muted)}
+.trustbar svg{width:13px;height:13px;color:var(--ochre)}
+
+/* ---------- section head ---------- */
+.sechead{max-width:600px;margin-bottom:clamp(34px,4.5vw,52px)}
+.sechead.center{margin-left:auto;margin-right:auto}
+.sechead p{margin-top:14px}
+
+/* ============================================================
+   CATEGORIES
+   ============================================================ */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,24px)}
+.cat{
+  display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:var(--r-xl);
+  background:linear-gradient(180deg,var(--navy-850),var(--navy-900));
+  transition:transform .35s cubic-bezier(.22,1,.36,1),border-color .35s ease,box-shadow .35s ease;
+}
+.cat:hover{transform:translateY(-6px);border-color:var(--ochre-line);box-shadow:var(--sh-lg)}
+.cat .ph{border-radius:0;border:0;border-bottom:1px solid var(--line);aspect-ratio:16/10.5}
+.cat__body{padding:24px 24px 26px;display:flex;flex-direction:column;gap:11px;flex:1}
+.cat__list{display:grid;gap:7px;margin-top:2px}
+.cat__list li{display:flex;gap:9px;align-items:flex-start;font-size:13.5px;color:var(--text-dim);line-height:1.5}
+.cat__list li::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--ochre);flex:0 0 auto;margin-top:8px}
+.cat__foot{margin-top:auto;padding-top:18px}
+
+/* ============================================================
+   TESTIMONIALS
+   ============================================================ */
+.tcard{
+  position:relative;padding:28px 26px;border:1px dashed var(--line-strong);border-radius:var(--r-lg);
+  background:linear-gradient(180deg,var(--navy-800),var(--navy-850));display:flex;flex-direction:column;
+}
+.stars{display:flex;gap:3px;margin-bottom:14px}
+.stars svg{width:14px;height:14px;color:var(--ochre)}
+.tcard p{font-size:14px;line-height:1.65;color:var(--muted)}
+.tmeta{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:20px}
+.avatar{
+  width:38px;height:38px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;
+  background:var(--navy-750);border:1px dashed var(--line-strong);
+}
+.avatar svg{width:16px;height:16px;color:var(--faint)}
+.tmeta__n{font-size:13px;color:var(--faint)}
+
+/* ============================================================
+   ABOUT
+   ============================================================ */
+.about__grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,4.5vw,62px);align-items:start}
+.about__media{position:relative;position:sticky;top:calc(var(--nav-h) + 28px)}
+.about__media .ph{aspect-ratio:4/4.9;border-radius:var(--r-xl)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.stat{padding:18px 16px;border:1px solid var(--line);border-radius:var(--r);background:rgba(255,255,255,.017);text-align:center}
+.stat .n{font-family:var(--display);font-size:1.7rem;font-weight:700;color:var(--ochre);line-height:1}
+.stat .l{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-top:7px;line-height:1.4}
+.prose{display:grid;gap:15px;margin-top:20px}
+.prose p{font-size:14.5px;color:var(--text-dim);line-height:1.75}
+.quote{
+  margin-top:26px;padding:26px 28px;border-left:2px solid var(--ochre);border-radius:0 var(--r) var(--r) 0;
+  background:linear-gradient(90deg,var(--ochre-wash),transparent 75%);
+}
+.quote p{font-family:var(--display);font-size:clamp(1rem,1.5vw,1.14rem);line-height:1.6;letter-spacing:-.015em;color:var(--text)}
+.quote cite{display:block;margin-top:14px;font-style:normal;font-size:12.5px;letter-spacing:.06em;color:var(--ochre)}
+
+/* ============================================================
+   HOW IT WORKS
+   ============================================================ */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.2vw,24px);margin-bottom:clamp(40px,5vw,62px)}
+.step{padding:22px 22px;border:1px solid var(--line-soft);border-radius:var(--r-lg);background:rgba(255,255,255,.015);position:relative;overflow:hidden}
+.step h4{font-size:14.5px;margin-bottom:6px}
+.step p{font-size:13.5px;color:var(--muted);line-height:1.55}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,2.4vw,26px)}
+.mode{display:flex;flex-direction:column;padding:clamp(24px,2.8vw,34px);border:1px solid var(--line);border-radius:var(--r-xl);background:linear-gradient(180deg,var(--navy-850),var(--navy-900))}
+.mode--alt{border-color:var(--ochre-line);background:linear-gradient(180deg,rgba(227,153,28,.055),var(--navy-850) 34%)}
+.mode__top{display:flex;align-items:center;gap:13px;margin-bottom:6px}
+.mode__ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;flex:0 0 auto;background:var(--ochre-wash);border:1px solid var(--ochre-line)}
+.mode__ic svg{width:19px;height:19px;color:var(--ochre)}
+.check{display:grid;gap:0}
+.check li{display:flex;gap:11px;align-items:flex-start;padding:7px 0;font-size:14px;color:var(--text-dim);line-height:1.5}
+.check .ic{width:20px;height:20px;border-radius:6px;flex:0 0 auto;margin-top:1px;display:grid;place-items:center;background:var(--ochre-wash);border:1px solid var(--ochre-line)}
+.check .ic svg{width:11px;height:11px;color:var(--ochre)}
+.mode__foot{margin-top:auto;padding-top:24px}
+
+/* ============================================================
+   PACKAGES
+   ============================================================ */
+.pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,22px);align-items:stretch}
+.pkg{
+  position:relative;display:flex;flex-direction:column;padding:clamp(26px,2.8vw,32px) clamp(22px,2.4vw,28px);
+  border:1px solid var(--line);border-radius:var(--r-xl);
+  background:linear-gradient(180deg,var(--navy-850),var(--navy-900));
+  transition:transform .35s cubic-bezier(.22,1,.36,1),border-color .35s ease,box-shadow .35s ease;
+}
+.pkg:hover{transform:translateY(-5px);border-color:var(--line-strong)}
+.pkg--feat{
+  border-color:var(--ochre-line);
+  background:linear-gradient(180deg,rgba(227,153,28,.085),var(--navy-850) 32%,var(--navy-900));
+  box-shadow:0 0 0 1px rgba(227,153,28,.1), var(--sh-lg);
+}
+.pkg--feat:hover{border-color:var(--ochre)}
+.pkg__badge{
+  position:absolute;top:-12px;left:50%;transform:translateX(-50%);
+  background:linear-gradient(150deg,var(--ochre-bright),var(--ochre-deep));color:#171000;
+  font-size:10px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+  padding:6px 15px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 22px -10px rgba(227,153,28,.9);
+}
+.pkg__name{font-size:1.1rem;letter-spacing:-.02em}
+.pkg__price{display:flex;align-items:baseline;gap:6px;margin-top:16px}
+.pkg__price .amt{font-family:var(--display);font-size:2.15rem;font-weight:700;letter-spacing:-.03em;line-height:1}
+.pkg__price .per{font-size:13px;color:var(--muted)}
+.pkg__total{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:9px;padding-bottom:20px;border-bottom:1px solid var(--line-soft);margin-bottom:18px}
+.pkg__total span{font-size:12.5px;color:var(--muted)}
+.pkg__save{
+  font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ochre);
+  background:var(--ochre-wash);border:1px solid var(--ochre-line);padding:3px 9px;border-radius:999px;
+}
+.pkg__incl{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line-strong)}
+.pkg__incl .lbl{font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);display:block;margin-bottom:9px}
+.pkg__foot{margin-top:auto;padding-top:24px}
+.finep{margin-top:24px;text-align:center}
+.finep p + p{margin-top:5px}
+
+/* ============================================================
+   FORM
+   ============================================================ */
+.formsec{position:relative;overflow:hidden}
+.formsec::after{content:'';position:absolute;inset:auto -10% -40% -10%;height:70%;z-index:0;pointer-events:none;background:radial-gradient(50% 60% at 50% 100%, rgba(227,153,28,.10), transparent 70%)}
+.form__grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,4.5vw,58px);align-items:start}
+.formcard{
+  padding:clamp(24px,2.8vw,34px);border:1px solid rgba(10,32,59,.14);border-radius:var(--r-xl);
+  background:#FFFFFF;box-shadow:0 30px 70px -30px rgba(3,8,18,.7);
+  color:#0A203B;
+  --text:#0A203B;
+  --text-dim:#42536C;
+  --muted:#5F7089;
+  --faint:#8494AB;
+  --line:rgba(10,32,59,.14);
+  --line-soft:rgba(10,32,59,.09);
+  --line-strong:rgba(10,32,59,.20);
+  --navy-900:#F7F9FC;
+  --navy-850:#FFFFFF;
+  --navy-800:#FFFFFF;
+}
+.formcard .form-success .tick{background:var(--ochre-wash);border-color:var(--ochre-line)}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{display:grid;gap:7px;margin-bottom:15px}
+.field label,.legend{font-size:11px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+.field .req{color:var(--ochre)}
+input[type=text],input[type=email],input[type=tel],select,textarea{
+  width:100%;padding:12px 14px;border-radius:var(--r);background:var(--navy-900);border:1px solid var(--line);
+  color:var(--text);font-size:14.5px;transition:border-color .2s ease,box-shadow .2s ease,background .2s ease;
+}
+input::placeholder,textarea::placeholder{color:var(--faint)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ochre-line);box-shadow:0 0 0 3px var(--ochre-wash);background:var(--navy-850)}
+textarea{resize:vertical;min-height:92px;line-height:1.6}
+select{
+  appearance:none;cursor:pointer;padding-right:40px;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238496B2' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 13px center;background-size:16px;
+}
+select option{background:var(--navy-800);color:var(--text)}
+.form-success{display:none;text-align:center;padding:14px 0}
+.form-success.on{display:block;animation:pop .45s cubic-bezier(.22,1,.36,1)}
+.form-success .tick{width:58px;height:58px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;background:var(--ochre-wash);border:1px solid var(--ochre-line)}
+.form-success .tick svg{width:25px;height:25px;color:var(--ochre)}
+form.hidden{display:none}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.ftr{background:var(--navy-950);border-top:1px solid var(--line-soft);padding:clamp(46px,5.5vw,66px) 0 0;position:relative;z-index:1}
+.ftr__grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:clamp(26px,3.6vw,48px);padding-bottom:40px}
+.ftr h5{font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-family:var(--sans)}
+.ftr ul{display:grid;gap:10px}
+.ftr ul a,.ftr ul li{font-size:13.5px;color:var(--text-dim);transition:color .2s ease}
+.ftr ul a:hover{color:var(--ochre)}
+.ftr__bar{border-top:1px solid var(--line-soft);padding:20px 0 26px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center}
+.ftr__logo{height:42px;width:auto;filter:brightness(0) invert(1);opacity:.9;margin-bottom:16px}
+.socials{display:flex;gap:8px;margin-top:18px}
+.socials a{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;transition:.22s}
+.socials a svg{width:15px;height:15px;color:var(--text-dim)}
+.socials a:hover{border-color:var(--ochre-line);background:var(--ochre-wash)}
+.socials a:hover svg{color:var(--ochre)}
+
+/* ============================================================
+   MODAL
+   ============================================================ */
+.modal{position:fixed;inset:0;z-index:100;display:none}
+.modal.open{display:grid;place-items:center;padding:18px}
+.modal__bd{position:absolute;inset:0;background:rgba(3,6,12,.8);backdrop-filter:blur(7px);animation:fade .3s ease}
+.modal__panel{
+  position:relative;z-index:1;width:100%;max-width:540px;max-height:min(90vh,860px);overflow-y:auto;
+  padding:clamp(24px,3vw,36px);border:1px solid rgba(10,32,59,.14);border-radius:var(--r-xl);
+  background:#FFFFFF;box-shadow:0 30px 70px -30px rgba(3,8,18,.7);
+  animation:slideUp .45s cubic-bezier(.22,1,.36,1);
+  color:#0A203B;
+  --text:#0A203B;
+  --text-dim:#42536C;
+  --muted:#5F7089;
+  --faint:#8494AB;
+  --line:rgba(10,32,59,.14);
+  --line-soft:rgba(10,32,59,.09);
+  --line-strong:rgba(10,32,59,.20);
+  --navy-900:#F7F9FC;
+  --navy-850:#FFFFFF;
+  --navy-800:#FFFFFF;
+}
+.modal__panel .eyebrow{color:#8F5F0B}
+.modal__panel .btn-ghost{background:#fff;border-color:rgba(10,32,59,.18);color:#0A203B}
+.modal__panel .btn-ghost:hover{background:var(--ochre-wash);border-color:var(--ochre-line);color:#0A203B}
+.modal__panel .form-success .tick{background:var(--ochre-wash);border-color:var(--ochre-line)}
+.modal__x{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:10px;border:1px solid rgba(10,32,59,.14);display:grid;place-items:center;color:#5F7089;transition:.2s;background:#fff}
+.modal__x:hover{color:#0A203B;border-color:rgba(10,32,59,.28);background:#F1F4F9}
+.modal__x svg{width:15px;height:15px}
+body.locked{overflow:hidden}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.985)}to{opacity:1;transform:none}}
+@keyframes slideUp{from{opacity:0;transform:translateY(56px)}to{opacity:1;transform:none}}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width:1000px){
+  .grid3,.pkgs,.steps{grid-template-columns:1fr 1fr}
+  .grid3 > :nth-child(3),.pkgs > :nth-child(3),.steps > :nth-child(3){grid-column:1 / -1}
+  .about__grid,.form__grid{grid-template-columns:1fr}
+  .about__media{position:static;max-width:440px}
+  .about__media .ph{aspect-ratio:4/3.4}
+}
+@media (max-width:920px){
+  .nav{display:none}
+  .burger{display:grid}
+}
+@media (max-width:860px){
+  .nav{display:none}
+  .burger{display:grid}
+  .grid2{grid-template-columns:1fr}
+  .ftr__grid{grid-template-columns:1fr 1fr}
+  .ftr__grid > :first-child{grid-column:1 / -1}
+}
+@media (max-width:640px){
+  :root{--nav-h:68px;--logo-h:38px}
+  .grid3,.pkgs,.steps{grid-template-columns:1fr}
+  .grid3 > :nth-child(3),.pkgs > :nth-child(3),.steps > :nth-child(3){grid-column:auto}
+  .frow{grid-template-columns:1fr}
+  .btn{width:100%}
+  .btn-row{flex-direction:column;align-items:stretch}
+  .hdr__cta .btn{width:auto}
+  .ftr__grid{grid-template-columns:1fr}
+  .ftr__grid > :first-child{grid-column:auto}
+  .trustbar{gap:10px 26px}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13"/><path d="M12 5.5 18.5 12 12 18.5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="17" rx="2.5"/><path d="M3 10h18M8 2.5v4M16 2.5v4"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2.5"/><circle cx="8.8" cy="9" r="1.6"/><path d="m21 15.5-4.6-4.6L5 21"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3.5" width="20" height="13" rx="2.5"/><path d="M8 20.5h8M12 16.5v4"/></symbol>
+  <symbol id="i-activity" viewBox="0 0 24 24"><polyline points="22 12 17.5 12 14.5 20.5 9.5 3.5 6.5 12 2 12"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-3.6 8-9.6V5.4L12 2.3 4 5.4v7c0 6 8 9.6 8 9.6z"/><polyline points="9 11.8 11.4 14.2 15.4 10"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9.4 9.4 0 0 1-2.9-.5L3 21.5l1.7-5.1A8.2 8.2 0 0 1 3.6 11.5a8.4 8.4 0 0 1 8.4-8.4h.5a8.4 8.4 0 0 1 8.5 8.4z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10.4c0 6-8 11.6-8 11.6s-8-5.6-8-11.6a8 8 0 0 1 16 0z"/><circle cx="12" cy="10.2" r="2.9"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.6 2.9 6 6.6.9-4.8 4.6 1.2 6.5-5.9-3.1-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24"><path d="M9 6.5c-3 1.4-4.5 3.8-4.5 7.2V19h6v-6H7c0-2 .7-3.4 2.4-4.3zm10 0c-3 1.4-4.5 3.8-4.5 7.2V19h6v-6H17c0-2 .7-3.4 2.4-4.3z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="2.8" y="2.8" width="18.4" height="18.4" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.4" cy="6.6" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M17 2.5h-3a5 5 0 0 0-5 5v3H6v4h3v7h4v-7h3l1-4h-4v-3a1 1 0 0 1 1-1h3z"/></symbol>
+</svg>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="hdr" id="hdr">
+  <div class="hdr__in">
+    <a href="#top" class="brand" aria-label="The Human Performance Architect — home">
+      <img src="img/hpa-logo.png" alt="The Human Performance Architect" class="brand__logo">
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#top">Home</a>
+      <a href="#training">Training</a>
+      <a href="#about">About</a>
+      <a href="#how">How It Works</a>
+      <a href="#packages">Packages</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hdr__cta">
+      <button class="btn btn-primary" data-open-modal>Book Consultation</button>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobnav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobnav" id="mobnav">
+  <a href="#top">Home</a>
+  <a href="#training">Training</a>
+  <a href="#about">About</a>
+  <a href="#how">How It Works</a>
+  <a href="#packages">Packages</a>
+  <a href="#contact">Contact</a>
+  <button class="btn btn-primary btn-block" data-open-modal>Book Consultation</button>
+</div>
+
+<main id="top">
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="heroB">
+  <div class="heroB__stage">
+    <div class="ph heroB__bg"></div>
+    <div class="heroB__scrim"></div>
+    <div class="heroB__in">
+      <div class="wrap" style="max-width:880px">
+        <span class="eyebrow eyebrow--c">The Human Performance Architect</span>
+        <h1 class="h-xl">Train with <span class="mark">Confidence</span>, Guided by Clinical Insight</h1>
+        <p class="lead" style="margin-top:20px">Strength and movement coaching built on clinical assessment.</p>
+        <div class="btn-row" style="margin-top:28px;justify-content:center">
+          <button class="btn btn-primary btn-lg" data-open-modal><svg><use href="#i-cal"/></svg>Book Your Initial Consultation</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TRUST BAR
+     ============================================================ -->
+<div class="wrap">
+  <div class="trustbar">
+    <span><svg><use href="#i-shield"/></svg>Registered Chiropractor</span>
+    <span><svg><use href="#i-activity"/></svg>3+ Years Clinical Experience</span>
+    <span><svg><use href="#i-hand"/></svg>Remedial Therapy</span>
+  </div>
+</div>
+
+<!-- ============================================================
+     CATEGORIES
+     ============================================================ -->
+<section class="sec" id="training">
+  <div class="wrap">
+    <div class="sechead center rv">
+      <span class="eyebrow eyebrow--c">Where to start</span>
+      <h2 class="h-lg">What are you training for?</h2>
+      <p class="lead">Pick the closest fit. The plan gets built from there.</p>
+    </div>
+
+    <div class="grid3">
+      <article class="cat cat--rehab rv" style="--d:0ms">
+        <div class="ph"></div>
+        <div class="cat__body">
+          <h3 class="h-sm">Rehab &amp; Return to Sport</h3>
+          <p class="body">Loading that respects the injury and rebuilds what you lost.</p>
+          <ul class="cat__list">
+            <li>Clear return-to-sport milestones</li>
+            <li>Load managed around symptoms</li>
+            <li>Strength that holds at game speed</li>
+          </ul>
+          <div class="cat__foot"><button class="tlink" data-open-modal>Enquire <svg><use href="#i-arrow"/></svg></button></div>
+        </div>
+      </article>
+
+      <article class="cat rv" style="--d:110ms">
+        <div class="ph"></div>
+        <div class="cat__body">
+          <h3 class="h-sm">Strength &amp; Conditioning</h3>
+          <p class="body">Structured blocks with real progression. Watch the numbers move.</p>
+          <ul class="cat__list">
+            <li>Progressive blocks, tracked</li>
+            <li>Conditioning matched to your sport</li>
+            <li>Technique coached, not counted</li>
+          </ul>
+          <div class="cat__foot"><button class="tlink" data-open-modal>Enquire <svg><use href="#i-arrow"/></svg></button></div>
+        </div>
+      </article>
+
+      <article class="cat rv" style="--d:220ms">
+        <div class="ph"></div>
+        <div class="cat__body">
+          <h3 class="h-sm">Fit for Real Life</h3>
+          <p class="body">Strong enough that life stops being the hard part.</p>
+          <ul class="cat__list">
+            <li>Fits around work and family</li>
+            <li>Strength, composition and energy</li>
+            <li>Sustainable, not punishing</li>
+          </ul>
+          <div class="cat__foot"><button class="tlink" data-open-modal>Enquire <svg><use href="#i-arrow"/></svg></button></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="sec band-fade band-line" id="about">
+  <div class="wrap">
+    <div class="about__grid">
+      <div class="about__media rv">
+        <div class="ph"></div>
+        <div class="stats">
+          <div class="stat"><div class="n">10+</div><div class="l">Years in health &amp; fitness</div></div>
+          <div class="stat"><div class="n">3</div><div class="l">Disciplines, one approach</div></div>
+        </div>
+      </div>
+
+      <div class="rv" style="--d:120ms">
+        <span class="eyebrow">About</span>
+        <h2 class="h-lg">Bradley Younger</h2>
+        <p class="lead" style="margin-top:16px">Building the confidence back into movement — one honest assessment at a time.</p>
+
+        <div class="prose">
+          <p>For more than a decade, Bradley Younger has worked across nearly every layer of the health and movement industry — as a personal trainer, a remedial massage therapist, and now as a registered chiropractor. Each discipline taught him something the others couldn’t: how the body moves, how it holds tension, and how it heals. Bringing all three together was never really a choice. It was always going to end back on the gym floor, helping people move the way their bodies were actually built to.</p>
+          <p>His approach is grounded in biomechanics and structural advantage — understanding not just that something hurts, but why, and what to do about it. It’s a perspective few trainers apply, and few clinicians take outside the treatment room. Bradley sees it as the missing link between rehabilitation and real results: the ability to spot a fundamental flaw in someone’s movement and correct it, before it quietly turns into an injury or a limit they’ve simply learned to live with.</p>
+          <p>That perspective isn’t only clinical. While completing his studies full-time alongside work and raising a young family, Bradley learned firsthand what it takes to protect a healthy routine inside an already full life. Rebuilding his own consistency reignited the reason he got into this industry in the first place — not to chase aesthetics, but to bring back the confidence, and the enjoyment, that movement is supposed to give people in the first place.</p>
+          <p>As a registered chiropractor, Bradley understands that pain and stiffness are often the real reason someone stops moving altogether, long before motivation ever becomes the issue. With clinical insight guiding every program, he helps clients see what’s actually holding them back — and builds a path forward that’s realistic, sustainable, and, most importantly, enjoyable again.</p>
+        </div>
+
+        <blockquote class="quote">
+          <p>“I know what it’s like to feel time-poor and still want to show up for yourself. My job isn’t just to get you moving — it’s to help you understand why your body feels the way it does, and build the confidence to trust it again.”</p>
+          <cite>— Bradley Younger</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HOW IT WORKS
+     ============================================================ -->
+<section class="sec sec--light band-line" id="how">
+  <div class="wrap">
+    <div class="sechead center rv">
+      <span class="eyebrow eyebrow--c">How It Works</span>
+      <h2 class="h-lg">Two ways to train</h2>
+      <p class="lead">Same assessment, same programming — in the room or online.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step rv" style="--d:0ms">
+        <h4>Consultation</h4>
+        <p>Where you’re at, and where you want to be.</p>
+      </div>
+      <div class="step rv" style="--d:100ms">
+        <h4>Assessment &amp; plan</h4>
+        <p>Movement, history, schedule. You leave with a plan.</p>
+      </div>
+      <div class="step rv" style="--d:200ms">
+        <h4>Train &amp; adjust</h4>
+        <p>Reviewed as you go, adjusted as you progress.</p>
+      </div>
+    </div>
+
+    <div class="grid2">
+      <div class="mode rv" style="--d:0ms">
+        <div class="mode__top">
+          <span class="mode__ic"><svg><use href="#i-user"/></svg></span>
+          <h3 class="h-md">One-on-One Training</h3>
+        </div>
+        <p class="body">In person, every session coached.</p>
+        <ul class="check">
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Every session coached in person</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Technique corrected as it happens</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Hands-on assessment when something flares</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Loading adjusted on the day</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Sessions booked around your week</li>
+        </ul>
+        <div class="mode__foot"><button class="btn btn-ghost btn-block" data-open-modal>Enquire</button></div>
+      </div>
+
+      <div class="mode mode--alt rv" style="--d:120ms">
+        <div class="mode__top">
+          <span class="mode__ic"><svg><use href="#i-monitor"/></svg></span>
+          <h3 class="h-md">Online Coaching</h3>
+        </div>
+        <p class="body">Your gym, your schedule.</p>
+        <ul class="check">
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Program built for your gym</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Delivered through an app</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Video technique reviews</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Weekly check-ins and adjustments</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Message access between check-ins</li>
+        </ul>
+        <div class="mode__foot"><button class="btn btn-ghost btn-block" data-open-modal>Enquire</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PACKAGES
+     ============================================================ -->
+<section class="sec band-850 band-line" id="packages">
+  <div class="wrap">
+    <div class="sechead center rv">
+      <span class="eyebrow eyebrow--c">Training Packages</span>
+      <h2 class="h-lg">Commit to the Climb</h2>
+      <p class="lead">Every session moves you further up the mountain. Lock in a bundle and save along the way.</p>
+    </div>
+
+    <div class="pkgs">
+      <article class="pkg rv" style="--d:0ms">
+        <h3 class="pkg__name">Single Session</h3>
+        <div class="pkg__price"><span class="amt">$95</span><span class="per">/ 45 min</span></div>
+        <div class="pkg__total"><span>1-on-1, no commitment</span></div>
+        <ul class="check">
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Clinical assessment &amp; goal review</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Personalised workout plan</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Technique focus &amp; correction</li>
+        </ul>
+        <div class="pkg__foot"><button class="btn btn-ghost btn-block" data-open-modal>Book Now</button></div>
+      </article>
+
+      <article class="pkg rv" style="--d:110ms">
+        <h3 class="pkg__name">5-Session Bundle</h3>
+        <div class="pkg__price"><span class="amt">$85</span><span class="per">/ session</span></div>
+        <div class="pkg__total"><span>$425 total, locked in</span><span class="pkg__save">Save $50</span></div>
+        <ul class="check">
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>5&times; personalised coaching sessions</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Regular biomechanical &amp; form audits</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Program adherence check-ins</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Priority scheduling</li>
+        </ul>
+        <div class="pkg__foot"><button class="btn btn-ghost btn-block" data-open-modal>Book Now</button></div>
+      </article>
+
+      <article class="pkg pkg--feat rv" style="--d:220ms">
+        <span class="pkg__badge">Best Value — Save $150</span>
+        <h3 class="pkg__name">10-Session Bundle</h3>
+        <div class="pkg__price"><span class="amt">$80</span><span class="per">/ session</span></div>
+        <div class="pkg__total"><span>$800 total, locked in</span></div>
+        <ul class="check">
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>10&times; comprehensive coaching sessions</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Full biomechanical audit</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Posture &amp; movement screening</li>
+          <li><span class="ic"><svg><use href="#i-check"/></svg></span>Customised home program</li>
+        </ul>
+        <div class="pkg__incl">
+          <span class="lbl">Included free with this bundle</span>
+          <ul class="check">
+            <li><span class="ic"><svg><use href="#i-check"/></svg></span>Complimentary progress review session</li>
+          </ul>
+        </div>
+        <div class="pkg__foot"><button class="btn btn-primary btn-block" data-open-modal>Book Now</button></div>
+      </article>
+    </div>
+
+    <div class="finep rv">
+      <p class="small">Bundles valid for 90 days from purchase. Cancellations require 24 hours’ notice.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TESTIMONIALS — PLACEHOLDERS
+     ============================================================ -->
+<section class="sec sec--light band-line" id="results">
+  <div class="wrap">
+    <div class="sechead center rv">
+      <span class="eyebrow eyebrow--c">Testimonials</span>
+      <h2 class="h-lg">What clients say</h2>
+    </div>
+
+    <div class="grid3">
+      <figure class="tcard rv" style="--d:0ms">
+        <div class="stars" aria-hidden="true">
+          <svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg>
+        </div>
+        <p>Add a real client testimonial here once you have one.</p>
+        <figcaption class="tmeta">
+          <span class="avatar"><svg><use href="#i-user"/></svg></span>
+          <span class="tmeta__n">Client name</span>
+        </figcaption>
+      </figure>
+
+      <figure class="tcard rv" style="--d:110ms">
+        <div class="stars" aria-hidden="true">
+          <svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg>
+        </div>
+        <p>Add a real client testimonial here once you have one.</p>
+        <figcaption class="tmeta">
+          <span class="avatar"><svg><use href="#i-user"/></svg></span>
+          <span class="tmeta__n">Client name</span>
+        </figcaption>
+      </figure>
+
+      <figure class="tcard rv" style="--d:220ms">
+        <div class="stars" aria-hidden="true">
+          <svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg><svg fill="currentColor" stroke="none"><use href="#i-star"/></svg>
+        </div>
+        <p>Add a real client testimonial here once you have one.</p>
+        <figcaption class="tmeta">
+          <span class="avatar"><svg><use href="#i-user"/></svg></span>
+          <span class="tmeta__n">Client name</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA / FORM
+     ============================================================ -->
+<section class="sec formsec band-deep" id="contact">
+  <div class="wrap">
+    <div class="form__grid">
+      <div class="rv">
+        <span class="eyebrow">Start your journey</span>
+        <h2 class="h-lg">Train with confidence, guided by clinical insight.</h2>
+        <p class="lead" style="margin-top:16px">Start with a conversation about where you’re at, and where you want to be.</p>
+        <p class="small" style="margin-top:26px"><svg style="width:13px;height:13px;color:var(--ochre);vertical-align:-2px;margin-right:6px" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>Form Training, Clarkson</p>
+      </div>
+
+      <div class="formcard rv" style="--d:120ms">
+        <form id="mainForm" novalidate>
+          <div class="frow">
+            <div class="field">
+              <label for="f-name">Name <span class="req">*</span></label>
+              <input type="text" id="f-name" name="name" placeholder="Your name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone <span class="req">*</span></label>
+              <input type="tel" id="f-phone" name="phone" placeholder="0400 000 000" required autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-email">Email <span class="req">*</span></label>
+            <input type="email" id="f-email" name="email" placeholder="you@email.com" required autocomplete="email">
+          </div>
+
+          <div class="field">
+            <label for="f-goal">What are you training for?</label>
+            <select id="f-goal" name="goal">
+              <option value="">Choose the closest fit</option>
+              <option>Rehab &amp; return to sport</option>
+              <option>Strength &amp; conditioning</option>
+              <option>Fit for real life</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-mode">How would you like to train?</label>
+            <select id="f-mode" name="mode">
+              <option>One-on-one</option>
+              <option>Online</option>
+              <option>Not sure</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-msg">Anything I should know?</label>
+            <textarea id="f-msg" name="message" placeholder="Injuries, goals, what you’ve tried"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Start Your Journey <svg><use href="#i-arrow"/></svg></button>
+        </form>
+
+        <div class="form-success" id="mainSuccess" role="status">
+          <div class="tick"><svg><use href="#i-check"/></svg></div>
+          <h3 class="h-md">Enquiry sent</h3>
+          <p class="body" style="margin-top:10px">You’ll hear back within one business day.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div>
+        <img src="img/hpa-logo.png" alt="The Human Performance Architect" class="ftr__logo">
+        <p class="small" style="max-width:34ch">Strength and movement coaching, guided by clinical insight.</p>
+        <div class="socials">
+          <!-- PLACEHOLDER SOCIAL LINKS -->
+          <a href="#" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#packages">Packages</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Get in touch</h5>
+        <!-- PLACEHOLDER CONTACT DETAILS -->
+        <ul>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li>Form Training, Clarkson</li>
+        </ul>
+        <button class="btn btn-primary" style="margin-top:20px" data-open-modal>Book Consultation</button>
+      </div>
+    </div>
+
+    <div class="ftr__bar">
+      <p class="tiny">&copy; <span id="yr">2026</span> The Human Performance Architect · Bradley Younger</p>
+      <p class="tiny">Website by A44</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     BOOKING MODAL
+     ============================================================ -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__bd" data-close-modal></div>
+  <div class="modal__panel">
+    <button class="modal__x" data-close-modal aria-label="Close"><svg><use href="#i-x"/></svg></button>
+
+    <span class="eyebrow">Initial consultation</span>
+    <h2 class="h-md" id="modalTitle">Book your initial consultation</h2>
+    <p class="body" style="margin-top:10px">Leave your details and you’ll hear back within one business day.</p>
+
+    <form id="modalForm" novalidate style="margin-top:24px">
+      <div class="frow">
+        <div class="field">
+          <label for="m-name">Name <span class="req">*</span></label>
+          <input type="text" id="m-name" name="name" placeholder="Your name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="m-phone">Phone <span class="req">*</span></label>
+          <input type="tel" id="m-phone" name="phone" placeholder="0400 000 000" required autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="m-email">Email <span class="req">*</span></label>
+        <input type="email" id="m-email" name="email" placeholder="you@email.com" required autocomplete="email">
+      </div>
+
+      <div class="field">
+        <label for="m-goal">What are you training for?</label>
+        <select id="m-goal" name="goal">
+          <option value="">Choose the closest fit</option>
+          <option>Rehab &amp; return to sport</option>
+          <option>Strength &amp; conditioning</option>
+          <option>Fit for real life</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="m-mode">How would you like to train?</label>
+        <select id="m-mode" name="mode">
+          <option>One-on-one</option>
+          <option>Online</option>
+          <option>Not sure</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="m-msg">Anything I should know?</label>
+        <textarea id="m-msg" name="message" placeholder="Injuries, goals, what you’ve tried" style="min-height:78px"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block btn-lg">Book Consultation <svg><use href="#i-arrow"/></svg></button>
+    </form>
+
+    <div class="form-success" id="modalSuccess" role="status">
+      <div class="tick"><svg><use href="#i-check"/></svg></div>
+      <h3 class="h-md">Enquiry sent</h3>
+      <p class="body" style="margin-top:10px">You’ll hear back within one business day.</p>
+      <button class="btn btn-ghost" style="margin-top:20px" data-close-modal>Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var $  = function(s,c){ return (c||document).querySelector(s); };
+  var $$ = function(s,c){ return Array.prototype.slice.call((c||document).querySelectorAll(s)); };
+
+  var yr = $('#yr'); if (yr) yr.textContent = new Date().getFullYear();
+
+  /* ---------- sticky header ---------- */
+  var hdr = $('#hdr');
+  var onScroll = function(){ hdr.classList.toggle('stuck', window.scrollY > 12); };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive:true });
+
+  /* ---------- mobile nav ---------- */
+  var burger = $('#burger'), mobnav = $('#mobnav');
+  var closeNav = function(){
+    burger.classList.remove('open');
+    mobnav.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+  };
+  burger.addEventListener('click', function(){
+    var open = mobnav.classList.toggle('open');
+    burger.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  $$('#mobnav a').forEach(function(a){ a.addEventListener('click', closeNav); });
+
+  /* ---------- reveal on scroll ---------- */
+  var rv = $$('.rv');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin:'0px 0px -8% 0px', threshold:0.08 });
+    rv.forEach(function(el){ io.observe(el); });
+  } else {
+    rv.forEach(function(el){ el.classList.add('in'); });
+  }
+  /* safety net: if the observer never fires, show everything rather than nothing */
+  setTimeout(function(){ if (!document.querySelector('.rv.in')) rv.forEach(function(el){ el.classList.add('in'); }); }, 2500);
+
+  /* ---------- modal ---------- */
+  var modal = $('#modal'), lastFocus = null;
+  var FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])';
+
+  function openModal(){
+    lastFocus = document.activeElement;
+    modal.hidden = false;
+    modal.classList.add('open');
+    document.body.classList.add('locked');
+    closeNav();
+    var first = modal.querySelector('input, select, textarea, button');
+    if (first) setTimeout(function(){ first.focus(); }, 60);
+  }
+  function closeModal(){
+    modal.classList.remove('open');
+    modal.hidden = true;
+    document.body.classList.remove('locked');
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  $$('[data-open-modal]').forEach(function(b){
+    b.addEventListener('click', function(e){ e.preventDefault(); openModal(); });
+  });
+  $$('[data-close-modal]').forEach(function(b){
+    b.addEventListener('click', function(e){ e.preventDefault(); closeModal(); });
+  });
+  document.addEventListener('keydown', function(e){
+    if (!modal.classList.contains('open')) return;
+    if (e.key === 'Escape') { closeModal(); return; }
+    if (e.key === 'Tab') {
+      var f = $$(FOCUSABLE, modal).filter(function(el){ return el.offsetParent !== null; });
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+
+  /* ---------- forms (front-end only — no backend wired yet) ---------- */
+  var BAD = '#E06B5F';
+  function clearErr(el){ el.style.borderColor = ''; el.removeAttribute('aria-invalid'); }
+  function markErr(el){
+    el.style.borderColor = BAD;
+    el.setAttribute('aria-invalid','true');
+    el.addEventListener('input',  function h(){ clearErr(el); el.removeEventListener('input', h); });
+    el.addEventListener('change', function h(){ clearErr(el); el.removeEventListener('change', h); });
+  }
+  function validate(form){
+    var ok = true, firstBad = null;
+    $$('[required]', form).forEach(function(el){
+      var val = el.type === 'checkbox' ? el.checked
+              : el.type === 'email'    ? /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(el.value.trim())
+              : el.value.trim().length > 1;
+      if (!val) { ok = false; if (el.type !== 'checkbox') markErr(el); if (!firstBad) firstBad = el; }
+      else clearErr(el);
+    });
+    if (firstBad) firstBad.focus();
+    return ok;
+  }
+  function wireForm(formId, successId){
+    var form = $(formId), success = $(successId);
+    if (!form || !success) return;
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if (!validate(form)) return;
+
+      /* TODO: connect to a real endpoint (Formspree / Netlify Forms / mail handler). */
+      var data = {};
+      new FormData(form).forEach(function(v,k){ data[k] = v; });
+      console.log('Enquiry captured (no backend connected yet):', data);
+
+      form.classList.add('hidden');
+      success.classList.add('on');
+      success.scrollIntoView({ behavior:'smooth', block:'center' });
+    });
+  }
+  wireForm('#mainForm',  '#mainSuccess');
+  wireForm('#modalForm', '#modalSuccess');
+
+})();
+</script>
+</body>
+</html>
